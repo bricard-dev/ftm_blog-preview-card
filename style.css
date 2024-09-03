@@ -128,3 +128,21 @@ footer {
   font-weight: 800;
   line-height: 150%;
 }
+
+@media (min-width: 426px) {
+  .category {
+    font-size: var(--text-sm);
+  }
+
+  .date {
+    font-size: var(--text-sm);
+  }
+
+  .title {
+    font-size: var(--text-2xl);
+  }
+
+  .description {
+    font-size: var(--text-base);
+  }
+}
